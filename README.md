@@ -15,12 +15,12 @@ How to run this project:
 * In your terminal, type: ```zip -d sendgrid-java.jar 'META-INF/*.SF' 'META-INF/*.RSA' 'META-INF/*.DSA'```
 * The above command is for removing the sign key so that we can use sending email feature correctly without any exceptions
 * Then, set the environment value: 
-* ```echo "export SENDGRID_API_KEY='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'" > sendgrid.env```
+* ```echo "export SENDGRID_API_KEY='API_KEY'" > sendgrid.env```
 * ```echo "sendgrid.env" >> .gitignore```
 * ```source ./sendgrid.env```
 
 ##### Option 2: Using Eclipse 
-* You can setup the environment var in the Eclipse run configurations: Go to environment, then add variable: SENDGRID_API_KEY, Value: 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
+* You can setup the environment var in the Eclipse run configurations: Go to environment, then add variable: SENDGRID_API_KEY, Value: API_KEY
 * The above command is for setting the sendgrid api key as an environemnt variable so that we can use send email features.
 
 #### **To Run the Project after setting up the environment:**
